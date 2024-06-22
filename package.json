@@ -1,0 +1,25 @@
+{
+  "name": "social-network-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dwalley606/social-network-api.git"
+  },
+  "author": "Daniel Walley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dwalley606/social-network-api/issues"
+  },
+  "homepage": "https://github.com/dwalley606/social-network-api#readme",
+  "devDependencies": {
+    "express": "^4.19.2"
+  },
+  "dependencies": {
+    "mongoose": "^8.4.3"
+  }
+}
