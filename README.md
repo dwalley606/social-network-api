@@ -16,7 +16,9 @@ A short project to practice MongoDB by coding the basics of a social media app b
 
 ## Installation
 
-Later
+1. Clone the repository to your local machine.
+2. Run `npm install` to install the necessary dependencies.
+3. Run `npm start` to start the server.
 
 ## Usage
 
@@ -24,12 +26,12 @@ Please use this project to explore how SQL differs from NoSQL databases.
 
 ## License
 
-    This project is covered under the MIT license. For more information, click the link below.
-    [License Link](https://opensource.org/licenses/MIT)
+This project is covered under the MIT license. For more information, click the link below.
+[License Link](https://opensource.org/licenses/MIT)
 
 ## Contributing
 
-None
+I was the sole contributor to this project.
 
 ## Tests
 
