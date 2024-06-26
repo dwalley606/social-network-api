@@ -1,5 +1,5 @@
 const { Schema, model } = require("mongoose");
-const { reactionSchema } = require("./Reaction");
+const reactionSchema = require("./Reaction"); // Ensure this import is correct
 
 const thoughtSchema = new Schema(
   {
@@ -17,7 +17,7 @@ const thoughtSchema = new Schema(
       type: String,
       required: true,
     },
-    reactions: [reactionSchema],
+    reactions: [reactionSchema], // Ensure this is correctly defined
   },
   {
     toJSON: {
@@ -31,6 +31,6 @@ thoughtSchema.virtual("reactionCount").get(function () {
   return this.reactions.length;
 });
 
-const Thought = model("thought", thoughtSchema);
+const Thought = model("Thought", thoughtSchema); // Ensure the model name is capitalized
 
 module.exports = Thought;
