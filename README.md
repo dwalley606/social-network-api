@@ -12,7 +12,7 @@ A short project to practice MongoDB by coding the basics of a social media app b
 2. [Usage](#usage)
 3. [License](#license)
 4. [Contributing](#contributing)
-5. [Tests](#tests)
+5. [Video](#video)
 
 ## Installation
 
@@ -33,9 +33,9 @@ This project is covered under the MIT license. For more information, click the l
 
 I was the sole contributor to this project.
 
-## Tests
+## Video
 
-None
+[Video Guide](https://drive.google.com/file/d/1o7ZlWyqjYWPfy5tRsJvL34-bTsEW1GAV/view)
 
 ## Questions
 
